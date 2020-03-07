@@ -6,16 +6,23 @@ body {
     background: #66d1ff;
 }
 /*header 1070 680 480*/
-
+.okinawa{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+@media screen and (max-width: 1070px) {
+    .okinawa {
+        height: 300px;
+    }
+}
 #header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: 400px;
-    background-image: url(image/potfolio.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
     background-color: #464646;
 }
 @media screen and (max-width: 1070px) {
@@ -24,15 +31,23 @@ body {
     }
 }
 #header h1 {
-    padding: 160px 0;
+    width: 100%;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
     color: #ffffff;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
 }
 @media screen and (max-width: 1070px) {
     #header h1 {
-        padding: 120px 0;
+        top: 150px;
         font-size: 60px;
     }
 }
