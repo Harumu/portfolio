@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="la">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="discript" content="今後の人生のことを考えてプログラミングを学ぶ山口春夢のポートフォリオ">
+        <meta name="viewport" content="width=device, initial=1">
+        <title>山口 春夢のポートフォリオ</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="../fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru|Noto+Sans+JP&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="./js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <section id="header">
+            <h1>ハルムのぽーとふぉりお</h1>
+        </section>
+
+        <section id="nav">
+            <ul>
+                <li class="border"><a href="#profile">Profile</a></li>
+                <li><a href="#future">Future</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </section>
+
+        <div class="flexbox">
+        <section id="main">
+
+            <div id="profile">
+                <h2>プロフィール</h2>
+                <div class="flex480px">
+                    <img class="round" src="image/314218.jpg" alt="自画像">
+                    <p>皆さんこんにちは！山口春夢と申します。<br>
+                       1996年3月12日生まれのうお座で社会人になって2年が経ちました<br>
+                       今はプログラミングとは無縁の装置メーカーに就職していますが、<br>
+                       不安を覚えプログラミングを学んでいます（笑）<br>
+                       駆け出しのため、経験等は少ないですが転職や副業の糧になればと思い、日々頑張っています。
+                    </p>
+                </div>
+            </div> 
+
+            <div id="future">
+                <h2>学んでいること・学んでみたいこと</h2>
+                <div class="detail">
+                    <div class="box">
+                        <h3>HTML・CSS</h3>
+                        <h4>現在習得中</h4>
+                        <p>基本的なコードを用いページの作成・装飾をすることができます</p>
+                    </div>
+                    <div class="box">
+                        <h3>javascript</h3>
+                        <h4>習得予定（プログラム外の可能性）</h4>
+                        <p>HTMLとCSSが難航しておりまだ手を出せていない模様ページに動きをつけることができるということしかわかっていません... 
+                        </p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="box">
+                        <h3>PHP</h3>
+                        <h4>自主的にやりたい</h4>
+                        <p>Web関係の仕事に就くのであれば習得しておくべきだと思うので、独学で少し理解はしておきたいところです。 </p>
+                    </div>
+                    <div class="box">
+                        <h3>Ruby</h3>
+                        <h4>習得予定</h4>
+                        <p>未知の世界です。これから勉強していきますが、不安でいっぱいです。わからない部分は放置せずにひとつづつ解決して進めていきたいです。
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div id="works">
+                <h2>学歴・お仕事</h2>
+                <div class="detail">
+                    <div class="box">
+                        <h3>学歴</h3>
+                        <table class="table">
+                            <tr>
+                                <th>2008年</th>
+                                <td>魚住東中学校　入学</td>
+                            </tr>
+                            <tr>
+                                <th>2011年</th>
+                                <td>明石北高等学校　入学</td>
+                            </tr>
+                            <tr>
+                                <th>2014年</th>
+                                <td>関西大学 経済学部 経済学科　入学</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="box">
+                        <h3>部活動</h3>
+                        <div class="Tp">
+                            <img class="img" src="image/314240.jpg" alt="Tp">
+                            <p>部活動は中高大と吹奏楽に所属<br>担当はトランぺット<br>クラシックからスポーツ応援、<br>マーチングなど幅広いジャンルを演奏する</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="box">
+                        <h3>職歴</h3>
+                        <h4>試験機装置メーカー　2年目</h4>
+                        <p>主に冷熱に関する試験を行う装置の営業から<br>設計・製造設置までを行うメーカー<br>2年目にもかかわらず研修中という謎の経歴から<br>将来のためにプログラミングを学び始める</p>
+                    </div>
+                    <div class="boxblue"></div>
+                </div>
+            </div>
+
+            <div id="news">
+                <h2>最近の出来事</h2>
+                <ul class="news">
+                    <li>通っているジムでマッチョと二人で閉じ込められる</li>
+                    <li>社長に誰にも言わないから会社の問題を教えてと言われ、教えたら次の日の管理職会議でチクられる</li>
+                    <li>3月に会社で配属決定</li>
+                </ul>
+            </div> 
+
+            <div id="contact">
+                <h2>コンタクト</h2>
+                <form action="program.php" method="post">
+                    <textarea name="comment" placeholder="質問等があればお気軽にお願いします。"></textarea>
+                    <button type="submit" name="send">質問を送る</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="list">
+            <div class="margin">
+        <i class="fas fa-clipboard-list"></i>
+            </div>
+            <div>
+        <section id="aside">
+            <h2>MENU</h2>
+            <ul class="flexmin">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#future">Learn</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#news">News</a></li>
+                <div class="sns">
+                <li><a class="padding" href="#contact">Contact</a></li>
+                <li class="none"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </div>
+            </ul>
+        </div>
+        </section>
+        </div>
+        </div>
+        
+        </div>
+
+        <section id="footer">
+            <p>Copyright &copy; Harumu Yamaguchi All rights reserved</p>
+        </section>
+
+    </body>
+</html>
